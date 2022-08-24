@@ -2,13 +2,11 @@
   "lint-staged": {
     "app/javascript/src/**/*.{js,jsx,json}": [
       "prettier --write",
-      "eslint --fix",
-      "git add"
+      "eslint --fix"
     ],
     "{package.json,.eslintrc.js,.prettierrc.js}": [
       "prettier --write",
-      "eslint --fix",
-      "git add"
+      "eslint --fix"
     ],
     "./**/*.rb": [
       "bundle exec rubocop -a"
