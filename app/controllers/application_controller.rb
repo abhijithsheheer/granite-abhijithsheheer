@@ -10,7 +10,7 @@ class ApplicationController < ActionController::Base
 
   rescue_from Pundit::NotAuthorizedError, with: :handle_authorization_error
 
-  include Pundit
+  include Pundit::Authorization
 
   private
 
