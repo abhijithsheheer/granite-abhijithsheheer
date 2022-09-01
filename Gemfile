@@ -26,6 +26,7 @@ gem "react-rails"
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 gem "pundit"
+gem "sidekiq"
 gem "simplecov", require: false, group: :test
 
 # Reduces boot times through caching; required in config/boot.rb
