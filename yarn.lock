@@ -1823,7 +1823,7 @@ babel-plugin-dynamic-import-node@^2.3.3:
 
 babel-plugin-js-logger@^1.0.17:
   version "1.0.17"
-  resolved "https://registry.npmjs.org/babel-plugin-js-logger/-/babel-plugin-js-logger-1.0.17.tgz"
+  resolved "https://registry.yarnpkg.com/babel-plugin-js-logger/-/babel-plugin-js-logger-1.0.17.tgz#56d2ec6ab1de4593a1923b3a79fcc160ed0e21c4"
   integrity sha512-PVA9QbK/e5Pkq4U+ZvMcan7cItqRBw2F6hpJvzowjNfVV48dJpCUaYYwXQnfZHpJe+hknZKM7hWnNDhVy4OBsg==
 
 babel-plugin-macros@^2.8.0:
