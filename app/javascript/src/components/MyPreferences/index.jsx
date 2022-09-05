@@ -49,10 +49,14 @@ const MyPreferences = () => {
 
   const fetchPreferenceDetails = async () => {
     try {
-      const { data } = await preferencesApi.show();
-      setNotificationDeliveryHour(data.notification_delivery_hour);
-      setShouldReceiveEmail(data.receive_email);
-      setPreferenceId(data.id);
+      const {
+        data: {
+          preference: { notification_delivery_hour, receive_email, id },
+        },
+      } = await preferencesApi.show();
+      setNotificationDeliveryHour(notification_delivery_hour);
+      setShouldReceiveEmail(receive_email);
+      setPreferenceId(id);
     } catch (error) {
       logger.error(error);
     } finally {
