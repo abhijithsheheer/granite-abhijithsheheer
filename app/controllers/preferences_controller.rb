@@ -4,7 +4,7 @@ class PreferencesController < ApplicationController
   before_action :load_preference
 
   def show
-    respond_with_json(@preference)
+    respond_with_json({ preference: @preference })
   end
 
   def update
